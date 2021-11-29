@@ -1,0 +1,81 @@
+/*DEVELOPER: Maryam Sajid, IS117-003, Fall, 2021 */
+
+
+/*body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width:100%;
+
+}*/
+.nav-link , .navbar-brand{ cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background: #444; !important;}
+
+.carousel-item{
+    width: 100%;
+    height: auto;
+}
+html, body {
+    background-color: #EAE7DC;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    border: none;
+    color: #444; /*#E98074;*/
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin: 0px 0px 10px;
+    color: #272727;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+    margin-bottom: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    line-height: 25px;
+    color: #727272;
+    font-weight: 400;
+}
+.card-body {
+    background-color:#EAE7DC ;
+
+}
+.card-footer{
+    background-color: black;
+}
+.footer {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
